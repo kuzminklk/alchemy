@@ -1,5 +1,9 @@
+
+
 // SPDX-License-Identifier: UNLICENSED
+
 pragma solidity ^0.8.28;
+
 
 contract BuyMeACoffee {
 
@@ -31,9 +35,9 @@ contract BuyMeACoffee {
 	}
 
 	/**
-	 * @dev buy a coffee for contract owner
-	 * @param _name name of the coffee buyer
-	 * @param _message a nice message from the coffee buyer
+	 * @dev Buy a coffee for contract owner
+	 * @param _name Name of the coffee buyer
+	 * @param _message A nice message from the coffee buyer
 	 */
 	function buyCoffee(string memory _name, string memory _message) public payable {
 		require(msg.value > 0, "Can't buy coffee with 0 ETH");
@@ -57,7 +61,7 @@ contract BuyMeACoffee {
 	}
 
 	/**
-	 * @dev send the entire balance stored in this contract to the owner
+	 * @dev Send the entire balance stored in this contract to the owner
 	 */
 	function withdrawTips() public {
 		(bool success, ) = owner.call{value: address(this).balance}("");
@@ -65,7 +69,7 @@ contract BuyMeACoffee {
 	}
 
 	/**
-	 * @dev retrive all the memos recived and stored on the blockchain
+	 * @dev Retrive all the memos recived and stored on the blockchain
 	 */
 	function getMemos() public view returns(Memo[] memory) {
 		return memos;

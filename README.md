@@ -1,3 +1,3 @@
 
-### Purpose 
-Detached repository for Alchemy study materials (courses, etc.)
+### Description 
+Workbook for Alchemy study materials (courses, etc.)
