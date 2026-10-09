@@ -1,3 +1,5 @@
+## About
 
 ### Description
-Smart-contract for donation with name and message  
+
+Smart-contract for donation with name and message
