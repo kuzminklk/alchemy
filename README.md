@@ -11,6 +11,6 @@ Part of computer-science study curriculum available in [Notion](https://kuzminkl
 ### Technologies
 
 Development: Visual Studio Code  
-Programming language: Solidity
-Environment: Hardhat
-Formatting: “.editorconfig”, “.vscode/…”, Prettier, Foundry
+Programming language: Solidity  
+Environment: Hardhat  
+Formatting: “.editorconfig”, “.vscode/…”, Prettier, Foundry  
